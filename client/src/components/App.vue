@@ -1,20 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Auth from "./Auth/Auth.vue";
+</script>
 
 <template>
-	<div> </div>
+	<div class="app_containter">
+		<Auth />
+	</div>
 </template>
 
 <style scoped>
-.logo {
-	height: 6em;
-	padding: 1.5em;
-	will-change: filter;
-	transition: filter 300ms;
-}
-.logo:hover {
-	filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-	filter: drop-shadow(0 0 2em #42b883aa);
-}
+@import "./App.style.scss";
 </style>
