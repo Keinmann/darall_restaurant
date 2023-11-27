@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import Auth from "./Auth/Auth.vue";
+import Header from "./Header/Header.vue";
+import Menu from "./Menu/Menu.vue";
 </script>
 
 <template>
 	<div class="app_containter">
-		<Auth />
+		<Header />
+		<Menu />
 	</div>
 </template>
 
