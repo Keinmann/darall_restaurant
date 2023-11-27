@@ -4,10 +4,18 @@
 }
 
 :root {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("/background.jpg");
+	background-size: auto; /* <------ */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1920px 1080px;
 	font-family: "URW Gothic";
 	color-scheme: light;
 	display: flex;
 	justify-content: center;
+	margin: 0;
 }
 
 @media (prefers-color-scheme: light) {

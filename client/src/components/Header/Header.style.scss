@@ -1,13 +1,33 @@
 .header {
 	&_containter {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
+		width: 100%;
 	}
-	&_logo {
+	&_logo_box {
+		text-transform: capitalize;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		&__option {
+			display: flex;
+			color: #000;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
 	}
-	&_button_box {
-	}
-	&_auth_box {
+	&_menu {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		&__option {
+			color: #000;
+			text-decoration: none;
+			display: flex;
+			text-transform: capitalize;
+			font-size: 28px;
+		}
 	}
 }

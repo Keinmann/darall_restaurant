@@ -11,7 +11,7 @@ const menuData = [menuItem, menuItem, menuItem, menuItem, menuItem];
 <template>
 	<div class="menu_containter">
 		<ul>
-			<li v-for="(item, id) in menuData">
+			<li v-for="(item, id) in menuData" v-bind:key="id">
 				<div>{{ item.title }}</div>
 				<div>{{ item.weight }}</div>
 				<div>{{ item.description }}</div>

@@ -9,5 +9,8 @@
 		"server": "cd server && npm run start"
 	},
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"vue-router": "^4.2.5"
+	}
 }

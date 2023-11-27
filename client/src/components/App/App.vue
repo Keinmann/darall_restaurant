@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import Header from "./Header/Header.vue";
-import Menu from "./Menu/Menu.vue";
+import Header from "../Header/Header.vue";
 </script>
 
 <template>
-	<div class="app_containter">
+	<div class="app_container">
 		<Header />
-		<Menu />
+		<router-view></router-view>
 	</div>
 </template>
 
