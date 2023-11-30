@@ -9,12 +9,22 @@
 		text-transform: capitalize;
 		display: flex;
 		flex-direction: row;
-		justify-content: left;
+		justify-content: center;
 		&__option {
 			display: flex;
 			color: #000;
 			text-decoration: none;
 			text-transform: uppercase;
+			&:hover {
+				color: #ccc;
+			}
+			&-beautified {
+				font-family: "Gustatory Delight Regular";
+				text-decoration: none;
+				color: #000;
+				font-size: 80px;
+				font-weight: 400;
+			}
 		}
 	}
 	&_menu {

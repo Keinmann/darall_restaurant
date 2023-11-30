@@ -3,30 +3,17 @@
 	src: url(/fonts/urw_gothic_l_demi.ttf);
 }
 
-:root {
-	width: 100vw;
-	height: 100vh;
-	background-image: url("/background.jpg");
-	background-size: auto; /* <------ */
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 1920px 1080px;
-	font-family: "URW Gothic";
-	color-scheme: light;
-	display: flex;
-	justify-content: center;
-	margin: 0;
+@font-face {
+	font-family: "Gustatory Delight Regular";
+	src: url(/fonts/GustatoryDelightRegular-rgX3L.ttf);
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
-	}
+:root {
+	height: 100vh;
+	background: 100% 100% url("/background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: "URW Gothic";
+	display: flex;
+	justify-content: center;
 }
